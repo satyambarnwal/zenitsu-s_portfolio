@@ -1,0 +1,646 @@
+@font-face {
+  font-family: mase;
+  src: url(font/MaseDemoVersionRegular-q26DV.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  width: 100%;
+  background-color: #282828;
+  overflow-x: hidden;
+}
+
+.page1 {
+  height: 140vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+
+  .nav {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    position: relative;
+    border-bottom: 1px solid #00000060;
+    color: #282828;
+
+    h5 {
+      font-size: 15px;
+      font-family: "Faculty Glyphic";
+      font-weight: 100;
+    }
+
+    h3 {
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, 0);
+      font-size: 26px;
+      font-family: "rye";
+      font-weight: 100;
+    }
+
+    i {
+      font-size: 16px;
+      font-weight: 100;
+    }
+  }
+
+  .section {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .sec1 {
+      width: 30%;
+      height: 80%;
+      display: flex;
+      align-items: start;
+      justify-content: start;
+      flex-direction: column;
+      padding: 0 15px;
+
+      .img1 {
+        background-image: url(images/img3.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 60%;
+        margin-top: 11px;
+        border: 1px solid black;
+      }
+
+      .head1 {
+        font-size: 20px;
+        font-weight: 800;
+        margin: 8px 0;
+        font-family: "Pirata One";
+        color: #282828;
+      }
+
+      .text1 {
+        font-size: 12px;
+        font-family: "Faculty Glyphic";
+        color: #282828aa;
+      }
+    }
+
+    .border1 {
+      height: 80%;
+      border-left: 1px solid #00000030;
+    }
+
+    .sec2 {
+      width: 30%;
+      height: 80%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 0 15px;
+      gap: 15px;
+
+      .head2 {
+        text-align: center;
+        font-family: "pirata one";
+        font-size: 85px;
+        line-height: 75px;
+        color: cornflowerblue;
+        font-weight: 900;
+        filter: drop-shadow(4px 4px 0 #282828);
+      }
+
+      .text2 {
+        width: 100%;
+        text-align: center;
+        font-family: "Faculty Glyphic";
+        color: #282828cc;
+      }
+    }
+
+    .border2 {
+      height: 80%;
+      border-right: 1px solid #00000030;
+    }
+
+    .sec3 {
+      width: 30%;
+      height: 80%;
+      display: flex;
+      align-items: end;
+      justify-content: start;
+      flex-direction: column;
+      padding: 0 15px;
+      text-align: right;
+
+      .img3 {
+        background-image: url(images/img2.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 60%;
+        margin-top: 11px;
+        border: 1px solid black;
+      }
+
+      .head3 {
+        font-size: 20px;
+        font-weight: 800;
+        margin: 8px 0;
+        font-family: "Pirata One";
+        color: #282828;
+      }
+
+      .text3 {
+        font-size: 12px;
+        font-family: "Faculty Glyphic";
+        color: #282828aa;
+      }
+    }
+  }
+
+  .title {
+    width: 96.66%;
+    height: 95%;
+    background-color: #282828;
+    margin: 0 25.6px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    position: relative;
+
+    .name {
+      position: absolute;
+      right: 1%;
+      width: 100%;
+      font-family: mase;
+      font-size: 615px;
+      text-align: center;
+      letter-spacing: -24px;
+      line-height: 500px;
+      color: aliceblue;
+      /* filter: drop-shadow.7px 6px 0 cornflowerblue); */
+    }
+  }
+}
+
+.page2 {
+  width: 100%;
+  height: 180vh;
+  display: flex;
+  padding: 50px 25.5px 0;
+  background-color: aliceblue;
+
+  .sec4 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-right: 40px;
+
+    .head4 {
+      width: 100%;
+      height: 29%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: "pirata one";
+      font-weight: 900;
+
+      .head41 {
+        font-size: 185px;
+        line-height: 183px;
+        color: cornflowerblue;
+        filter: drop-shadow(8px 8px 0 #282828);
+      }
+
+      .head42 {
+        font-size: 164px;
+        line-height: 150px;
+        color: #282828;
+        filter: drop-shadow(8px 8px 0 cornflowerblue);
+      }
+    }
+
+    .img4 {
+      width: 100%;
+      height: 58.5%;
+      padding: 15px 0;
+
+      .inside4 {
+        width: 100%;
+        height: 100%;
+        background-image: url(images/6.jpg);
+        background-position: center;
+        background-size: cover;
+        border: 1px solid black;
+      }
+    }
+
+    .desc4 {
+      width: 100%;
+      height: 12.5%;
+      font-family: "Faculty Glyphic";
+      font-size: 21px;
+      color: #282828cc;
+    }
+  }
+
+  .border3 {
+    height: 100%;
+    border-right: 1px solid #00000060;
+  }
+
+  .sec5 {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-left: 40px;
+
+    .img5 {
+      width: 100%;
+      height: 60%;
+      background-image: url(images/7.jpg);
+      background-position: center;
+      background-size: cover;
+      border: 1px solid black;
+    }
+
+    .desc5 {
+      display: flex;
+      flex-direction: column;
+      height: 40%;
+      width: 100%;
+    }
+
+    .desc5o {
+      height: 25%;
+      text-align: left;
+      font-family: "pirata one";
+      font-size: 100px;
+      font-weight: 900;
+      color: #282828;
+      filter: drop-shadow(4px 4px 0 cornflowerblue);
+    }
+  }
+}
+
+.page3 {
+  width: 100%;
+  height: 60vh;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 25.5px 0;
+
+  .website {
+    height: 100%;
+    width: 78.5%;
+    background-color: #282828;
+    color: aliceblue;
+    overflow-y: hidden;
+    position: relative;
+
+    .web-text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 430px;
+      line-height: 412px;
+      letter-spacing: -18px;
+      font-family: mase;
+      position: absolute;
+      left: 2%;
+    }
+  }
+
+  .stamp {
+    height: 100%;
+    width: 20%;
+    background-image: url(images/stamp-Photoroom.png);
+    background-size: cover;
+    background-position: center;
+    scale: 1;
+    filter: drop-shadow(10px 8px 0px #282828);
+  }
+}
+
+.page4 {
+  width: 100%;
+  height: 110vh;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 25.5px;
+  gap: 40px;
+
+  .story1 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+
+    .story1-head {
+      font-family: pirata one;
+      font-size: 65.7px;
+      line-height: 65.7px;
+      font-weight: 900;
+      color: #282828;
+      filter: drop-shadow(3px 3px 0 cornflowerblue);
+    }
+
+    .story1-desc {
+      width: 97%;
+      font-family: faculty glyphic;
+      font-size: 18px;
+      line-height: 26px;
+      color: #28282880;
+    }
+
+    .story1-img {
+      background-image: url(images/angry\ zenitsu.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 60%;
+      width: 100%;
+      border: 1px solid black;
+    }
+  }
+
+  .story-border {
+    height: 100%;
+    border-right: 1px solid #00000060;
+  }
+
+  .story2 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+
+    .story2-first {
+      height: 100%;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+
+      .story2-head {
+        width: 100%;
+        font-family: faculty glyphic;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: right;
+        color: #282828ee;
+      }
+
+      .story2-title {
+        width: 100%;
+        font-family: pirata one;
+        font-size: 115px;
+        line-height: 115px;
+        font-weight: 900;
+        text-align: right;
+        color: #282828;
+        filter: drop-shadow(4px 4px 0 cornflowerblue);
+      }
+
+      .story2-desc {
+        width: 100%;
+        font-family: faculty glyphic;
+        font-size: 17.5px;
+        line-height: 25px;
+        text-align: right;
+        color: #282828aa;
+      }
+    }
+
+    .story2-second {
+      height: 100%;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+
+      .story2-img {
+        background-image: url(images/8.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 80%;
+        border: 1px solid black;
+      }
+
+      .link {
+        height: 15%;
+        width: 90%;
+        background-color: cornflowerblue;
+        color: #f0f8ff;
+        border-radius: 50px;
+        border: 1px solid #282828ee;
+        position: relative;
+        display: flex;
+        overflow: hidden;
+        cursor: pointer;
+        margin-bottom: 5px;
+
+        .story2-link {
+          height: 100%;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 50px;
+          line-height: 50px;
+          font-family: pirata one;
+          transition: all ease 0.8s;
+        }
+
+        .story2-link-img {
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          background-color: cornflowerblue;
+          background-image: url(images/arrow.png);
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+          transform: translateX(-100%);
+          transition: all ease 0.8s;
+        }
+      }
+
+      .link:hover .story2-link-img {
+        transform: translateX(0%);
+      }
+
+      .link:hover .story2-link {
+        transform: translateX(100%);
+      }
+    }
+  }
+}
+
+.page5 {
+  width: 100%;
+  height: 180vh;
+  background-color: aliceblue;
+  padding: 0 25.5px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  .friends-title {
+    width: 100%;
+    height: 30%;
+    background-color: #282828;
+
+    .friends-text {
+      color: aliceblue;
+      font-family: mase;
+      font-size: 405px;
+      line-height: 405px;
+      letter-spacing: -6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .friends-img {
+    width: 100%;
+    height: 67.5%;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+
+    .classic {
+      width: 100%;
+      height: 100%;
+      background-image: url(images/trio2.jpg);
+      background-size: cover;
+      background-position: top;
+      transform: translateX(0);
+      transition: all 1s ease-in-out 0.5s;
+    }
+
+    .funk {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background-image: url(images/trio.jpg);
+      background-size: cover;
+      background-position: bottom;
+      transform: translateX(-100%);
+      transition: all 1s ease-in-out 0.5s;
+    }
+  }
+
+  .friends-img:hover .funk {
+    transform: translateX(0);
+  }
+
+  .friends-img:hover .classic {
+    transform: translateX(100%);
+  }
+}
+
+.page6 {
+  width: 100%;
+  height: 23.4vh;
+  padding: 35px 0;
+  background-color: aliceblue;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  border-bottom: 1px solid #00000060;
+  border-top: 1px solid #00000060;
+
+  h1 {
+    color: #282828;
+    display: inline-block;
+    font-family: pirata one;
+    font-size: 60px;
+    margin-right: 20px;
+
+    animation-name: scroll;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+    span {
+      color: aliceblue;
+      background-color: #282828;
+      font-family: mase;
+      font-size: 80px;
+      padding: 8px 10px 0;
+      letter-spacing: 2px;
+    }
+  }
+}
+
+.page6::-webkit-scrollbar {
+  display: none;
+}
+
+.page6:hover h1 {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-100% - 24px));
+  }
+}
+
+.page7 {
+  width: 100%;
+  height: 10vh;
+  background-color: aliceblue;
+  padding: 0 25.5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  a {
+    text-decoration: none;
+    color: #282828;
+    font-family: rye;
+    font-size: 22px;
+  }
+}
